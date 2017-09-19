@@ -330,7 +330,7 @@ namespace Calculator
 
             switch (buttonText)
             {
-                // C# doesn't have a Math.factorial()? Who the fuck does that?!
+                
                 case "!":
                     if (number < 0 || number.ToString().Contains("."))
                     {
@@ -658,46 +658,6 @@ namespace Calculator
 
         }
 
-       // private void keyboardInput(object sender, System.Windows.Input.KeyEventArgs e)
-       // {
-       //     string keyString = e.Key.ToString();
-       //     //MessageBox.Show(keyString);
-       //     Dictionary<string, Button> buttonShortcuts = new Dictionary<string, Button>()
-       //     {
-       //         { "D0", zero_button },
-       //         { "D1", one_button },
-       //         { "D2", two_button },
-       //         { "D3", three_button },
-       //         { "D4", four_button },
-       //         { "D5", five_button },
-       //         { "D6", six_button },
-       //         { "D7", seven_button },
-       //         { "D8", eight_button },
-       //         { "D9", nine_button },
-       //         { "P", pi_button },
-       //         { "E", e_button },
-       //         { "S", sin_button },
-       //         { "C", cos_button },
-       //         { "T", tan_button },
-       //         { "Return", equals_button },
-       //         { "Back", back_button }
-       //     };
-       //     string[] numberButtons = 
-       //     {
-       //         "D0",
-       //         "D1",
-       //         "D2",
-       //         "D3",
-       //         "D4",
-       //         "D5",
-       //         "D6",
-       //         "D7",
-       //         "D8",
-       //         "D9",
-       //     };
-
-       //     if (numberButtons.Contains(keyString))
-       //     numberClick(buttonShortcuts[keyString], null);
-       //}
+ 
     }
 }
